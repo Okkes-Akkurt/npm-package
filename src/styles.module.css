@@ -7,3 +7,21 @@
   font-size: 2em;
   text-align: center;
 }
+
+Button[type='primary'] {
+  background-color: rgb(59, 213, 224);
+}
+
+Button[type='dashed'] {
+  background-color: magenta;
+  border-style: dashed;
+
+}
+
+Button[type='text']:hover {
+  background-color: transparent;
+}
+
+Button[type='link']:hover {
+  color: aqua;
+}
